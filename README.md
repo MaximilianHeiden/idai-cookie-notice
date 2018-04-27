@@ -11,7 +11,11 @@ gave her consent by clicking the dismiss-button. The message is shown again afte
 
 ## Usage
 
-Just include `idai-cooke-notice.js` in your HTML.
+Include `idai-cooke-notice.js` in your HTML and call
+
+    IDaiCookieNotice.init();
+
+on your main page. The URL to the privacy policy may be given as an argument to `init()`.
 
 ## Styling
 
